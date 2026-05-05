@@ -1,0 +1,18 @@
+export const getAllCourse = async ()=>{
+
+  const res= await fetch ("http://localhost:5000/all-courses")
+  const data = await res.json();
+  return data;
+}
+export const getPopulerCourse = async ()=>{
+
+  const res= await fetch ("http://localhost:5000/popular-courses")
+  const data = await res.json();
+  return data;
+}
+export const getPopulerMentors = async ()=>{
+
+  const res= await fetch ("http://localhost:5000/popular-mentors")
+  const data = await res.json();
+  return data;
+}
