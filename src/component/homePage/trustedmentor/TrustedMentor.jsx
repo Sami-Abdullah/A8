@@ -12,10 +12,10 @@ const TrustedMentor = async () => {
     <div className='container mx-auto space-y-30'>
       <div className='space-y-5'>
 
-        <h1 className='text-center text-5xl font-semibold'>
+        <h1 className='text-center text-5xl font-bold'>
           Get Guided by the Best in the Field
         </h1>
-        <p className='text-xl font-semibold text-gray-600 text-center'> Do not just learn to code—learn to build. Your journey is supported by mentors who have walked the path before you.</p>
+        <p className='text-xl  text-gray-600 text-center font-semibold'> Do not just learn to code—learn to build. Your journey is supported by mentors who have walked the path before you.</p>
       </div>
 
       <div className=' grid grid-cols-4 gap-5'>

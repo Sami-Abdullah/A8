@@ -8,8 +8,8 @@ const StudentReviews = async() => {
   return (
     <div className=' py-10 space-y-10'>
       <div className='text-center space-y-5' >
-        <h1 className=' text-5xl font-semibold'>Stories of Success</h1>
-        <p className='text-xl font-medium'>See how our students transformed their careers and mastered new skills with the help of industry experts.</p>
+        <h1 className=' text-5xl font-bold'>Stories of Success</h1>
+        <p className='text-xl text-gray-600 font-semibold'>See how our students transformed their careers and mastered new skills with the help of industry experts.</p>
       </div>
       <div className='  grid grid-cols-3 gap-4'>
           {

@@ -22,3 +22,9 @@ export const getStudentReview = async ()=>{
   const data = await res.json();
   return data;
 }
+export const getCourseByCategory = async ({categoty})=>{
+
+  const res= await fetch (`http://localhost:5000/${categoty}`)
+  const data = await res.json();
+  return data;
+}
