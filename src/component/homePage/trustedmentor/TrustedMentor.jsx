@@ -1,4 +1,4 @@
-import MentorCard from '@/component/shared/cards/MentorCard';
+import MentorCard from '@/component/homePage/trustedmentor/MentorCard';
 import { getPopulerCourse, getPopulerMentors } from '@/data/data';
 import Image from 'next/image';
 import React from 'react';

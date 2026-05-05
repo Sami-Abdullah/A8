@@ -164,5 +164,70 @@
       "qualification": "Director of Engineering at Google & Vue.js Core Team Member",
       "top_course": "Advanced Frontend Architecture"
     }
+  ],
+  "student-reviews": [
+    {
+      "id": "rev_1",
+      "name": "Arif Ahmed",
+      "role": "Frontend Developer",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+      "feedback": "Skill Sphere changed my life. The Next.js 15 course helped me land my first remote job at a US-based startup within three months!"
+    },
+    {
+      "id": "rev_2",
+      "name": "Priya Das",
+      "role": "UI/UX Designer",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+      "feedback": "The mentorship was incredible. I finally understand the 'why' behind design principles, not just the 'how'. Highly recommended!"
+    },
+    {
+      "id": "rev_3",
+      "name": "Sami Abdullah",
+      "role": "Computer Science Student",
+      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=200",
+      "feedback": "Learning the MERN stack through the hands-on projects here gave me the confidence I needed for my final university defense."
+    },
+    {
+      "id": "rev_4",
+      "name": "Tanvir Hossain",
+      "role": "Backend Intern",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+      "feedback": "The Laravel tutorials are gold. The way the instructors explain modular architecture helped me refactor my entire portfolio project."
+    },
+    {
+      "id": "rev_5",
+      "name": "Meherun Nesa",
+      "role": "Marketing Specialist",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+      "feedback": "Finally, a platform that teaches marketing with a technical edge. The SEO modules were practical and very easy to follow."
+    },
+    {
+      "id": "rev_6",
+      "name": "Rahul Sharma",
+      "role": "Data Analyst",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
+      "feedback": "The Python for Data Science course is intense but worth it. The real-world datasets provided made a huge difference in my learning."
+    },
+    {
+      "id": "rev_7",
+      "name": "Laila Islam",
+      "role": "Graphic Designer",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200",
+      "feedback": "Tailwind CSS mastery was a game changer for me. I can now prototype designs directly in code much faster than before."
+    },
+    {
+      "id": "rev_8",
+      "name": "Zayan Khan",
+      "role": "Full-Stack Learner",
+      "image": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&q=80&w=200",
+      "feedback": "The direct access to mentors like Adam Wathan is something you just don't find elsewhere. Best investment in my education so far."
+    },
+    {
+      "id": "rev_9",
+      "name": "Anika Tahsin",
+      "role": "Software Engineering Student",
+      "image": "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=200",
+      "feedback": "The project management and UML modeling sections really helped me organize my team's workflow for our semester project."
+    }
   ]
 }

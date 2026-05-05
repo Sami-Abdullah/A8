@@ -16,3 +16,9 @@ export const getPopulerMentors = async ()=>{
   const data = await res.json();
   return data;
 }
+export const getStudentReview = async ()=>{
+
+  const res= await fetch ("http://localhost:5000/student-reviews")
+  const data = await res.json();
+  return data;
+}
