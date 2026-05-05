@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div className=" container mx-auto space-y-10">
       <HeroBanner></HeroBanner>
+      <TrustedMentor></TrustedMentor>
 
     </div>
   );
