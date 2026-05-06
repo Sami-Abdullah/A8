@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -10,9 +11,9 @@ const Navbar = () => {
           <button className=" text-4xl font-semibold">Skill Sphere</button>
           <div className='flex gap-1'>
 
-            <button className='text-xl font-semibold'>Log in</button>
+            <button className='text-xl font-semibold'><Link href={'/login'}>Log In</Link></button>
             <span className='text-xl font-semibold'>|</span>
-            <button className='text-xl font-semibold'> Regisnter</button>
+            <button className='text-xl font-semibold'><Link href={'/registration'}>Regisnter</Link> </button>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import CourseCard from '@/component/allCoursePage/CourseCard';
 import { getCourseByCategory } from '@/data/data';
 import React from 'react';
 
@@ -7,10 +8,10 @@ const page = async ({params}) => {
   const courses = await getCourseByCategory(category)
   
   return (
-    <div>
+    <div className='py-10 space-y-2'>
       {
         courses.map((course,index)=>(
-          <h1 key={index}> {course.title}</h1>
+          <CourseCard key={index} course={course}></CourseCard>
         ))
       }
     </div>

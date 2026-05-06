@@ -5,32 +5,32 @@ import React, { useState } from 'react';
 
 const Tabs = () => {
 
-  const [active, setActive] = useState(false);
+  
   const categories = [
 
     {
-      urlName: "all",
+      urlName: "",
       tabName: "All"
     },
     {
-      urlName: "development",
+      urlName: "/development",
       tabName: "Development"
     },
     {
-      urlName: "design",
+      urlName: "/design",
       tabName: "Design"
     },
     {
-      urlName: "dataScience",
+      urlName: "/dataScience",
       tabName: "Data Science"
     },
     {
-      urlName: "marketing",
+      urlName: "/marketing",
       tabName: "Marketing"
     },
     {
-      urlName: "itAndSoftwareall",
-      tabName: "Software"
+      urlName: "/itAndSoftware",
+      tabName: "IT & Software"
     }
   ]
 
@@ -38,11 +38,6 @@ const Tabs = () => {
 
   const pathname = usePathname();
 
-  const isActive = (active,category)=>{
-    if (pathname === `/all-course${category.urlname ==='all' ?"" :`/${category.urlname}`}`){
-      setActive(!active)
-    }
-  }
   
   return (
     <div role="tablist" className="tabs tabs-lift my-10">
@@ -52,10 +47,9 @@ const Tabs = () => {
           <Link 
 
           key = {index}
-          role = "tab"
-          onClick = {() => {isActive(active,category)}}   
-          className = {`tab ${active ? "tab-active":""} px-5`} 
-          href = {`/all-course${category.urlName ==='all' ? "" :`/${category.urlName}`}`}
+          role = "tab"  
+          className = {`tab ${(pathname === `/all-course${category.urlName}`)  ? "tab-active bg-primary font-bold text-gray-200":""} px-5`} 
+          href = {`/all-course${category.urlName}`}
           
           >{category.tabName}
           

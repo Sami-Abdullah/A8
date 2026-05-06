@@ -8,6 +8,7 @@
       "rating": 4.9,
       "level": "Beginner",
       "description": "Master the MERN stack from scratch with hands-on projects.",
+      "details": "This course provides a complete roadmap to becoming a full-stack web developer using the MERN stack (MongoDB, Express, React, Node.js). You will build multiple real-world projects, understand REST APIs, authentication, and deployment strategies.",
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
       "category": "Development"
     },
@@ -19,6 +20,7 @@
       "rating": 4.7,
       "level": "Intermediate",
       "description": "Deep dive into modern JavaScript concepts, closures, and async patterns.",
+      "details": "A deep dive into advanced JavaScript concepts including closures, prototypes, event loop, asynchronous programming, promises, and modern ES6+ features. Ideal for developers looking to strengthen core JS fundamentals.",
       "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&q=80&w=600",
       "category": "Development"
     },
@@ -30,7 +32,8 @@
       "rating": 4.8,
       "level": "Beginner",
       "description": "Learn Figma and the core principles of modern interface design.",
-      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?auto=format&fit=crop&q=80&w=600",
+      "details": "Learn the fundamentals of UI/UX design, including wireframing, prototyping, user research, and usability principles. You will use Figma to create modern, user-friendly interfaces.",
+      "image": "https://imgs.search.brave.com/w1N3TiVyWpvanVOrdEfk8h7E469zy7BW9KDZyPwP5wE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdGV1cnMtbGli/cmUvYXJyaWVyZS1w/bGFuLXVpLXV4LWNv/dWxldXItZGVncmFk/ZWVfNzk2MDMtMTky/NC5qcGc_c2VtdD1h/aXNfaW5jb21pbmcm/dz03NDAmcT04MA",
       "category": "Design"
     },
     {
@@ -41,7 +44,8 @@
       "rating": 4.6,
       "level": "Intermediate",
       "description": "Analyze big data using NumPy, Pandas, and Matplotlib.",
-      "image": "https://images.unsplash.com/photo-1551288049-bbda48338715?auto=format&fit=crop&q=80&w=600",
+      "details": "Master data analysis using Python. This course covers NumPy, Pandas, data visualization with Matplotlib, and working with real-world datasets to extract meaningful insights.",
+      "image": "https://realpython.com/cdn-cgi/image/width=960,format=auto/https://files.realpython.com/media/Python-Basics-Video-Course_Watermarked.5710cce31aa9.jpg",
       "category": "Data Science"
     },
     {
@@ -52,7 +56,8 @@
       "rating": 4.9,
       "level": "Advanced",
       "description": "Build high-performance apps using Server Components and Turbopack.",
-      "image": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&q=80&w=600",
+      "details": "An advanced course focused on building high-performance web applications using Next.js 15. Learn about server components, routing, data fetching strategies, and optimization techniques.",
+      "image": "https://imgs.search.brave.com/lkB30F6ObDCeYXkObNJjo_XU9LDxSnUX9h5jql5bWv4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kM2Yx/aXlmeHh6OGkxZS5j/bG91ZGZyb250Lm5l/dC9jb3Vyc2VzL2Nv/dXJzZV9pbWFnZS8z/NjZlNjViMTNlYTAu/anBn",
       "category": "Development"
     },
     {
@@ -63,6 +68,7 @@
       "rating": 4.5,
       "level": "Beginner",
       "description": "Master SEO, SEM, and social media marketing trends.",
+      "details": "Understand the fundamentals of digital marketing, including SEO, search engine marketing, content strategy, and social media campaigns. Learn how to grow online presence effectively.",
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600",
       "category": "Marketing"
     },
@@ -74,7 +80,8 @@
       "rating": 4.8,
       "level": "Beginner",
       "description": "The elegant PHP framework for web artisans.",
-      "image": "https://images.unsplash.com/photo-1599507593499-a3f7f7d9a2cc?auto=format&fit=crop&q=80&w=600",
+      "details": "A beginner-friendly introduction to Laravel 11. Learn MVC architecture, routing, authentication, and how to build secure and scalable web applications using PHP.",
+      "image": "https://cdn01.alison-static.net/courses/6620/alison_courseware_intro_6620.jpg",
       "category": "Development"
     },
     {
@@ -85,6 +92,7 @@
       "rating": 4.7,
       "level": "Beginner",
       "description": "Protect networks and systems from digital attacks.",
+      "details": "Explore the basics of cybersecurity, including network security, encryption, ethical hacking, and best practices to protect systems from cyber threats.",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600",
       "category": "IT & Software"
     },
@@ -96,6 +104,7 @@
       "rating": 4.9,
       "level": "Intermediate",
       "description": "Rapidly build modern websites without ever leaving your HTML.",
+      "details": "Learn how to build modern UI quickly using Tailwind CSS. This course covers utility-first design, responsive layouts, and building clean, maintainable interfaces.",
       "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=600",
       "category": "Design"
     }
@@ -120,7 +129,7 @@
       "rating": 4.9,
       "level": "Advanced",
       "description": "Build high-performance apps using Server Components and Turbopack.",
-      "image": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&q=80&w=600",
+      "image": "https://imgs.search.brave.com/lkB30F6ObDCeYXkObNJjo_XU9LDxSnUX9h5jql5bWv4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kM2Yx/aXlmeHh6OGkxZS5j/bG91ZGZyb250Lm5l/dC9jb3Vyc2VzL2Nv/dXJzZV9pbWFnZS8z/NjZlNjViMTNlYTAu/anBn",
       "category": "Development"
     },
     {
@@ -239,7 +248,8 @@
       "rating": 4.9,
       "level": "Beginner",
       "description": "Master the MERN stack from scratch with hands-on projects.",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600"
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
+      "category": "Development"
     },
     {
       "id": "2",
@@ -249,7 +259,8 @@
       "rating": 4.7,
       "level": "Intermediate",
       "description": "Deep dive into modern JavaScript concepts, closures, and async patterns.",
-      "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&q=80&w=600"
+      "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&q=80&w=600",
+      "category": "Development"
     },
     {
       "id": "5",
@@ -259,7 +270,8 @@
       "rating": 4.9,
       "level": "Advanced",
       "description": "Build high-performance apps using Server Components and Turbopack.",
-      "image": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&q=80&w=600"
+      "image": "https://imgs.search.brave.com/lkB30F6ObDCeYXkObNJjo_XU9LDxSnUX9h5jql5bWv4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kM2Yx/aXlmeHh6OGkxZS5j/bG91ZGZyb250Lm5l/dC9jb3Vyc2VzL2Nv/dXJzZV9pbWFnZS8z/NjZlNjViMTNlYTAu/anBn",
+      "category": "Development"
     },
     {
       "id": "7",
@@ -269,7 +281,8 @@
       "rating": 4.8,
       "level": "Beginner",
       "description": "The elegant PHP framework for web artisans.",
-      "image": "https://images.unsplash.com/photo-1599507593499-a3f7f7d9a2cc?auto=format&fit=crop&q=80&w=600"
+      "image": "https://cdn01.alison-static.net/courses/6620/alison_courseware_intro_6620.jpg",
+      "category": "Development"
     }
   ],
   "design": [
@@ -281,7 +294,8 @@
       "rating": 4.8,
       "level": "Beginner",
       "description": "Learn Figma and the core principles of modern interface design.",
-      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?auto=format&fit=crop&q=80&w=600"
+      "image": "https://imgs.search.brave.com/w1N3TiVyWpvanVOrdEfk8h7E469zy7BW9KDZyPwP5wE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdGV1cnMtbGli/cmUvYXJyaWVyZS1w/bGFuLXVpLXV4LWNv/dWxldXItZGVncmFk/ZWVfNzk2MDMtMTky/NC5qcGc_c2VtdD1h/aXNfaW5jb21pbmcm/dz03NDAmcT04MA",
+      "category": "Design"
     },
     {
       "id": "9",
@@ -291,7 +305,8 @@
       "rating": 4.9,
       "level": "Intermediate",
       "description": "Rapidly build modern websites without ever leaving your HTML.",
-      "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=600"
+      "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=600",
+      "category": "Design"
     }
   ],
   "dataScience": [
@@ -303,7 +318,8 @@
       "rating": 4.6,
       "level": "Intermediate",
       "description": "Analyze big data using NumPy, Pandas, and Matplotlib.",
-      "image": "https://images.unsplash.com/photo-1551288049-bbda48338715?auto=format&fit=crop&q=80&w=600"
+      "image": "https://realpython.com/cdn-cgi/image/width=960,format=auto/https://files.realpython.com/media/Python-Basics-Video-Course_Watermarked.5710cce31aa9.jpg",
+      "category": "Data Science"
     }
   ],
   "marketing": [
@@ -315,7 +331,8 @@
       "rating": 4.5,
       "level": "Beginner",
       "description": "Master SEO, SEM, and social media marketing trends.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600"
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600",
+      "category": "Marketing"
     }
   ],
   "itAndSoftware": [
@@ -327,7 +344,8 @@
       "rating": 4.7,
       "level": "Beginner",
       "description": "Protect networks and systems from digital attacks.",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600"
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600",
+      "category": "It"
     }
   ]
 }

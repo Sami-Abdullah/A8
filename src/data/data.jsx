@@ -28,3 +28,11 @@ export const getCourseByCategory = async (categoty)=>{
   const data = await res.json();
   return data;
 }
+export const getCourseById = async (id)=>{
+
+  const datas = await getAllCourse();
+
+  const res = datas.find ((data)=> data.id == id) 
+  console.log(res);
+  return res ;
+}

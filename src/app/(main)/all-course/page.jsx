@@ -1,21 +1,14 @@
 import { getAllCourse } from '@/data/data';
-import Image from 'next/image';
 import React from 'react';
-import image from '@/assest/projectCompeleted.svg'
-import AllcourseBanner from '@/component/allCoursePage/AllcourseBanner';
-import Tabs from '@/component/allCoursePage/Tabs';
+import CourseCard from '@/component/allCoursePage/CourseCard';
 const AllCourse = async () => {
   const courses = await getAllCourse();
   return (
-    <div className='mx-auto py-25'>
-
-      <AllcourseBanner></AllcourseBanner>
-
-      <Tabs></Tabs>
+    <div className='py-10 space-y-2'>
 
       {
         courses.map((course, index) => (
-          <h1 key={index}>{course.title} </h1>
+          <CourseCard key={index} course={course}></CourseCard>
         ))
       }
     </div>
