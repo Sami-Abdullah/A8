@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Hero from "@/assest/Hero3.svg"
+import Link from 'next/link';
 const HeroBanner = () => {
   return (
     <div className=" flex flex-col items-center my-20 space-y-20">
@@ -9,8 +10,22 @@ const HeroBanner = () => {
         <p className="text-xl font-semibold text-gray-600">Empowering your journey from foundational learning to professional expertise.</p>
       </div>
       <div> <Image src={Hero} alt="hero banner" height={400}></Image></div>
+      <div className='flex gap-5 '>
 
-    </div>
+
+        <Link href={'/all-course'}>
+          <button className="btn btn-primary text-xl font-semibold px-10 py-5">
+            All Course
+          </button>
+        </Link>
+
+        <Link href={'/all-course'}>
+          <button className="btn btn-secondary text-xl font-semibold px-10 py-5">
+            Explore
+          </button>
+        </Link>
+      </div>
+    </div >
   );
 };
 

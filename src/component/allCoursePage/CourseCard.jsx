@@ -20,7 +20,7 @@ const CourseCard = ({ course }) => {
 
         <div className='flex gap-4 text-xl font-medium'>
           <span className='badge badge-accent'> {level}</span>
-          <span className='badge badge-secondary'> {rating}</span>
+          <span className='badge badge-warning'> {rating}</span>
           <span className='badge badge-info'> {duration}</span>
           <span className='badge badge-success'> {category}</span>
         </div>

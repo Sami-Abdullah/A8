@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 const Tabs = () => {
 
-  
+
   const categories = [
 
     {
@@ -38,25 +38,26 @@ const Tabs = () => {
 
   const pathname = usePathname();
 
-  
+
   return (
-    <div role="tablist" className="tabs tabs-lift my-10">
+    <div role="tablist" className="tabs tabs-lift my-10 space-y-4">
 
       {
         categories.map((category, index) => (
-          <Link 
+          <Link
 
-          key = {index}
-          role = "tab"  
-          className = {`tab ${(pathname === `/all-course${category.urlName}`)  ? "tab-active bg-primary font-bold text-gray-200":""} px-5`} 
-          href = {`/all-course${category.urlName}`}
-          
+            key={index}
+            role="tab"
+            className={`tab ${(pathname === `/all-course${category.urlName}`) ? "tab-active bg-primary font-bold text-gray-200" : ""} px-5`}
+            href={`/all-course${category.urlName}`}
+
           >{category.tabName}
-          
-          
+
+
           </Link>
         ))
       }
+
 
     </div>
   );
