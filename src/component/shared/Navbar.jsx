@@ -76,12 +76,13 @@ const Navbar = () => {
 
 
               {user.image ? (
+                
                 <Image
                   src={user.image}
                   alt="profile"
                   width={40}
                   height={40}
-                  className="rounded-full border"
+                   className="w-10 h-10 rounded-full object-cover border"
                 />
               ) : (
                 <CgProfile size={28} />
