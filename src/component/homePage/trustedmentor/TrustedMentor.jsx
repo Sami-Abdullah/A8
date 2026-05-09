@@ -18,7 +18,7 @@ const TrustedMentor = async () => {
         <p className='text-xl  text-gray-600 text-center font-semibold'> Do not just learn to code—learn to build. Your journey is supported by mentors who have walked the path before you.</p>
       </div>
 
-      <div className=' grid grid-cols-4 gap-5'>
+      <div className=' grid grid-cols-1 p-10 md:grid-cols-2 md:p-0 lg:grid-cols-4 lg:p-10 gap-5'>
         {
           mentors.map((mentor) => (
 

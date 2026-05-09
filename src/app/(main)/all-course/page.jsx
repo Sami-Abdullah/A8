@@ -8,7 +8,7 @@ const AllCourse = async () => {
 
   }
   return (
-    <div className=' space-y-2'>
+    <div className='space-y-2'>
       <SearchandDisplay courses={courses}></SearchandDisplay>
 
     </div>

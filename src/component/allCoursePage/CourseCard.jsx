@@ -10,15 +10,15 @@ const CourseCard = ({ course }) => {
 
 
   return (
-    <div className="card card-side bg-base-100 shadow-sm p-3">
-      <figure>
+    <div className="card lg:card-side bg-base-100 shadow-sm py-5 ">
+      <figure className='lg:p-10'>
         <Image src={image} alt={title} width={200} height={400}></Image>
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
 
-        <div className='flex gap-4 text-xl font-medium'>
+        <div className='flex gap-2  flex-wrap text-xl font-medium'>
           <span className='badge badge-accent'> {level}</span>
           <span className='badge badge-warning'> {rating}</span>
           <span className='badge badge-info'> {duration}</span>

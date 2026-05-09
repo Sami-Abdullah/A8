@@ -47,8 +47,8 @@ const StudyTips = () => {
   return (
     <div className='space-y-10'>
       <div className='text-center space-y-10'>
-        <h1 className='text-5xl font-semibold'>Optimize Your Learning Journey</h1>
-        <p className='text-xl text-gray-600'>Master complex technical skills faster with proven strategies designed for modern</p>
+        <h1 className='text-3xl lg:text-5xl font-semibold'>Optimize Your Learning Journey</h1>
+        <p className=' px-2 text-sm lg:text-xl text-gray-600'>Master complex technical skills faster with proven strategies designed for modern</p>
       </div>
       {
         tips.map((tip, index) => (

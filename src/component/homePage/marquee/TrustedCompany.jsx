@@ -11,7 +11,7 @@ import Marquee from "react-fast-marquee";
 const TrustedCompany = ({ children }) => {
   return (
     <div className='space-y-20 my-40'>
-      <h1 className='text-4xl font-medium text-center'>Trusted by Professionals from Top Tech Companies</h1>
+      <h1 className='text-xl lg:text-4xl font-medium text-center'>Trusted by Professionals from Top Tech Companies</h1>
       <Marquee autoFill={true} gradient={true}>
         <div className='flex space-x-10 '>
           <Image src={Google} height={50} alt="google"></Image>

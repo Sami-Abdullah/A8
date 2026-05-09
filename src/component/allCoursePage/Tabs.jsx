@@ -40,7 +40,7 @@ const Tabs = () => {
 
 
   return (
-    <div role="tablist" className="tabs tabs-lift my-10 space-y-4">
+    <div role="tablist" className="px-5 tabs tabs-lift my-10 space-y-4">
 
       {
         categories.map((category, index) => (
